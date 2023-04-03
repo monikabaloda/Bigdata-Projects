@@ -1,0 +1,39 @@
+Using more than 10 million observation on accomodation which includes over 350k Hotels and 1.2M Vacation rentals, we investigate how a typical booking pattern look like. 
+What are the set of things which matters for hotel booking. 
+Our goal of this project is to understanding a traveler’s journey of selecting & booking a hotel. We basically enquire following three questions:
+  1. Who books more and how?
+  2. How do different traveler segments behave?
+  3. What determines hotel booking?
+
+We use python programming language, the built-in libraries to do our analysis. The main python libraries used are: 
+  1. sklearn : Used for model selection, principal component analysis, k-means clustering, pre-processing, random forest classifier, accuracy calculation, 
+  2. SciPy : used for hierarchical cluster analysis, dendrogram, linkage.  
+  3. Pandas : To deal with dataframe and their accessing specific information from data.
+  4  MatPyplot: used for graphs, plots and data visualization. 
+  5. Numpy: for matrix computationas
+  
+The main features of this work are: 
+   1. We deal with big-data regime. We learned how to handle such a big scale of data given thier compuational problem, missing information and overwhelming information.
+   2. We idenfity set of important variables out of around 175 variables using LASSO method. 
+   3. We then rank the factors based on their importance in explaining our target variable. We do this using random forest classifier from sklearn library. 
+   4. Using principal compoenent analysis and K-means clustering, we identify some patterns in the data. We couldn't do heirarchical clustering due to computational difficulty.
+ 
+
+This is a group project with two of my other team members: Charu and Sakshee. The following is the division of work in this project: 
+   Monika Baloda:  
+     1. Implemented pattern recognition methodologies using PCA and Cluster Analysis.
+     2. Theory, Coding, and Inferences of variable selection techniques (LASSO and Random Forest)      
+
+   Charu Joshi : 
+     1. Data acquisition & management         2.  Introduction, Project Evaluation & Conclusion
+   Sakshee Vaidya :
+     1. Exploratory Data Analysis (EDA) using python in Google collab 
+     2. Data visualization & management
+     
+     
+  I upload following files in this project: 
+     1. Final project report contianing outcomes, results, inferences and theoritical modelling. 
+     2. Main `Analysis' python notebook which implemented the random forest, PCA, LASSO, model eveluation techniques. This code file is completely written by me 
+             and is the main heart of this project. 
+     3. Data: We upload the downsized data used for the analysis. We also provide the public weblinks to access the original data in our project report. 
+    
