@@ -1,5 +1,5 @@
--In this project, I analyze big-data on united states firm contianing obervations more than 2.3 million. 
--I investigate which factors matter the most for firm profitability. 
+-In this project, I analyze big-data on the United States' firms contianing obervations more than 2.3 million. 
+-I investigate factors that matter the most for the firm profitability. 
 -I used R programming and built-in libraries for this project. 
 
 -The data used in this project is firm level financial ratios and indicators provided by Wharton Research Data Services (WRDS) 
